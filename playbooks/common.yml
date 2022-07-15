@@ -22,7 +22,6 @@
         state: latest
 
 
-
 - name: create directory, file and set timezone on all severs
   hosts: webservers, nfs, db, lb
   become: yes
